@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #800080;
+    height: 300px;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-container {
+    position: relative;
+}
+
+.profile-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+    top: -80px ;
+}
+
+.icones {
+    position: relative;
+    bottom: 120px;
+    display: flex;
+    justify-content: flex-end;
+    width: 40px;
+    height: 40px;
+    gap: 40px;
+}
+
+.account-section, .credit-card-section {
+    background-color: white;
+    margin: -5px;
+    padding: 15px;
+    border-radius: -5px;
+
+}
+
+.account-balance {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.acoes {
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 10px; 
+}
+
+.acoes div {
+    background-color: #0101134f; 
+    width: 80px; 
+    height: 80px; 
+    border-radius: 40px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 5px; 
+}
+
+.acoes img {
+    height: 40px; 
+    width: auto; 
+}
+
+
+.cartao-section {
+background-color: white;
+margin: 10px 0 10px ;  
+padding: 10px;
+border-radius: 2px; 
+height: 50px;
+}
+
+
+.feedback-card, .offer-card {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+.cartao{
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+}
+.nomes {
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 10px; 
+    flex-wrap: wrap;
+    margin-left: 20px; 
+}
+
+.nomes h1 {
+    font-size: 0.8em; 
+    margin: 10px 10px 10px; 
+}
+
+.h1,.h2,.h3,.h4{
+    position: relative;
+    left: 25px ;
+}
